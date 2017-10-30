@@ -229,9 +229,9 @@ return [
              * the following line and set the port accordingly
              */
             //'port' => 'non_standard_port_number',
-            'username' => 'my_app',
-            'password' => 'secret',
-            'database' => 'my_app',
+            'username' => env('DATABASE_USER', null),
+            'password' => env('DATABASE_PASSWORD', null),
+            'database' => env('DATABASE', null),
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],

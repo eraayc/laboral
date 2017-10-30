@@ -1,3 +1,6 @@
 logs/
+tmp/
 vendor/
 webroot/uploads/
+/nbproject/
+config/.env
